@@ -13,3 +13,23 @@ designated by a public key.
 This application was written by Zac Delventhal maintainer on Hyperledger
 Sawtooth. Original source code can be found here
 (https://github.com/delventhalz/transfer-chain-js).
+
+### Getting started
+
+1. Start the containers:
+
+```bash
+$ docker-compose -f sawtooth-default.yaml up
+```
+
+2. Start processor (server)
+
+```bash
+$ cd process && npm start
+```
+
+3. Start client
+
+```bash
+$ cd client && serve
+```
